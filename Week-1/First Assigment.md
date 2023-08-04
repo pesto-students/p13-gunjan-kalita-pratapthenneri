@@ -168,8 +168,6 @@ Horizontal scaling, also known as scaling out, involves adding more servers to d
 
 Scaling in web applications is important because it ensures that the application remains available, responsive, and reliable even during periods of high traffic or usage. It helps prevent performance bottlenecks, reduces the risk of downtime, and provides a positive user experience.
 
-In practice, many modern web applications use a combination of vertical and horizontal scaling to achieve the desired performance and scalability. By adding more resources to individual servers (vertical scaling) and distributing the workload across multiple servers (horizontal scaling), web applications can effectively handle varying levels of demand and maintain high performance as they grow.
-
 ## 5. What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
 
 SEO, or Search Engine Optimization, is the practice of improving a website's visibility and ranking in search engine results pages (SERPs) organically. The goal of SEO is to increase the website's traffic by attracting relevant and targeted visitors from search engines like Google, Bing, and others. When a website ranks higher in search results, it is more likely to be seen and visited by users searching for related topics, products, or services.
