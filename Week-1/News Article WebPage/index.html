@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>News Article</title>
+    <style>
+      .alignformfield {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>User Form</h2>
+      <form action="#" method="POST" enctype="multipart/form-data">
+        <div class="alignformfield">
+          <label for="fullName">Full Name</label>&nbsp;
+          <input type="text" id="fullname" name="fullname" />
+        </div>
+        <div class="alignformfield">
+          <label for="email">Email</label>&nbsp;
+          <input type="text" id="email" name="email" />
+        </div>
+        <div class="alignformfield">
+          <label for="about">About</label>&nbsp;
+          <textarea rows="3" cols="50"></textarea>
+        </div>
+        <div class="alignformfield">
+          <label for="picture">Picture</label>&nbsp;
+          <input type="file" id="picture" name="picture" />
+        </div>
+        <div>
+          <input type="submit" id="submit" name="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
