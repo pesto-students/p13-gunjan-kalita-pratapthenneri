@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Restaurant Reviews</title>
+    <style>
+      .addreview-form {
+        display: flex;
+        margin-bottom: 20px;
+      }
+      .add-review {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+      }
+      .addreview-form label {
+        flex: 2;
+      }
+      .addreview-form input,
+      .addreview-form select,
+      .addreview-form textarea {
+        flex: 4;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Restaurant Reviews</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="addreview.html">Add Review</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="add-review">
+      <h2>Add Your Review</h2>
+      <form action="#" method="POST">
+        <div class="addreview-form">
+          <label>Name?</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="addreview-form">
+          <label>Restaurant?</label>
+          <select>
+            <option value="mainstreetcafe">Main Street Cafe</option>
+            <option value="greekhouse">Greek House</option>
+          </select>
+        </div>
+        <div class="addreview-form">
+          <label>Date of visit?</label>
+          <input type="date" id="date" name="date" />
+        </div>
+        <div class="addreview-form">
+          <label>Rating?</label>
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="addreview-form">
+          <label>Details?</label>
+          <textarea rows="5" cols="30"> </textarea>
+        </div>
+        <div class="addreview-form">
+          <button type="submit" id="submit" name="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2023 Restaurant Reviews</p>
+    </footer>
+  </body>
+</html>

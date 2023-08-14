@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starting Lineup</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .form-section {
+        margin-bottom: 10px;
+      }
+
+      label {
+        display: block;
+      }
+      #gameDate {
+        display: inline;
+      }
+
+      input[type="radio"],
+      input[type="checkbox"] {
+        margin-right: 5px;
+      }
+
+      input[type="submit"] {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Starting Lineup</h1>
+      <form action="#" method="POST">
+        <div class="form-section">
+          <fieldset>
+            <legend>Status:</legend>
+            <label>
+              <input type="radio" name="status" value="Draft" /> Draft
+            </label>
+            <label>
+              <input type="radio" name="status" value="Final" checked /> Final
+            </label>
+          </fieldset>
+        </div>
+        <div class="form-section">
+          <label id="gameDate" for="gameDate">Date:</label>
+          <select name="gameDate">
+            <option value="March 20">March 20</option>
+            <option value="March 24">March 24</option>
+            <option value="April 2">April 2</option>
+            <option value="April 6">April 6</option>
+            <option value="April 13">April 13</option>
+          </select>
+        </div>
+        <div class="form-section">
+          <fieldset>
+            <legend>Players:</legend>
+            <label>
+              <input type="checkbox" name="player" value="Aarav Agarwal" />
+              Aarav Agarwal
+            </label>
+            <label>
+              <input type="checkbox" name="player" value="Ava Johnson" /> Ava
+              Johnson
+            </label>
+            <label>
+              <input type="checkbox" name="player" value="Julio Ortiz" /> Julio
+              Ortiz
+            </label>
+            <label>
+              <input type="checkbox" name="player" value="Liam Rubio" /> Liam
+              Rubio
+            </label>
+            <label>
+              <input type="checkbox" name="player" value="Emma Witherspoon" />
+              Emma Witherspoon
+            </label>
+          </fieldset>
+        </div>
+        <div class="form-section">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
