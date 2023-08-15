@@ -1,0 +1,28 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+.cap {
+  background-color: green;
+  padding: 10px;
+  color: #ffff;
+}
+.container {
+  border: 2px solid green;
+  display: inline-block;
+  text-align: center;
+  width: 500px;
+}
+/* table th,
+table td {
+  border: 1px solid green;
+} */
+table {
+  width: 100%;
+}
+table th,
+table td {
+  padding: 10px;
+}
+table tr:nth-child(even) {
+  background-color: rgb(233, 247, 233);
+}
