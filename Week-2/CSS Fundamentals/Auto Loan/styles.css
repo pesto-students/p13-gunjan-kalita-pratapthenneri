@@ -1,0 +1,42 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+.mainheader {
+  text-align: center;
+}
+.loan-details {
+  text-align: center;
+}
+.offer {
+  display: inline-block;
+  border: 1px solid #cccccc;
+  width: 400px;
+  margin: 4px;
+}
+.offer-header {
+  color: #ffffff;
+  background-color: #00b3b3;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.offer-content {
+  padding: 20px;
+  background-color: #fafafa;
+}
+table {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+}
+table td {
+  font-weight: lighter;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 15px;
+  color: #777777;
+  text-align: left;
+}
+.finalValue {
+  font-weight: bold;
+  color: #2222ff;
+}
