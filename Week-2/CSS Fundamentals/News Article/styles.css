@@ -1,0 +1,18 @@
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+.article-title {
+  background-color: red;
+  padding: 10px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+}
+.article-publish-info {
+  font-size: small;
+  padding: 10px;
+  color: #beb5b5;
+}
+.article-summary-points {
+  margin-left: 30px;
+}
