@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced CSS Selectors</title>
+    <style>
+      label {
+        display: inline-block;
+        width: 120px;
+      }
+      input,
+      textarea {
+        width: 300px;
+        padding: 10px;
+      }
+      input [type="submit"] {
+        width: auto;
+      }
+      .required::after {
+        content: "*";
+        color: red;
+      }
+      label + input {
+        background-color: rgb(219, 241, 248);
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Rate a Product</h2>
+    <p><span class="required"></span> indicates required field</p>
+
+    <form>
+      <div>
+        <label class="required">Product</label>
+        <input type="text" id="product" name="product" />
+      </div>
+      <div>
+        <label class="required">Purchase Date</label>
+        <input type="date" id="purchasedate" name="purchasedate" />
+      </div>
+      <div>
+        <label class="required">Rating</label>
+        <input type="text" id="rating" name="rating" />
+      </div>
+      <div>
+        <label>Comments</label>
+        <textarea id="comments" rows="4"></textarea>
+      </div>
+      <button type="submit">Submit Rating</button>
+    </form>
+  </body>
+</html>
