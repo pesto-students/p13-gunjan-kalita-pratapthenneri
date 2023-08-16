@@ -1,0 +1,31 @@
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.star-rating {
+  display: inline-block;
+  font-size: 24px;
+  color: #ccc;
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("./img/filledstar.png");
+  background-size: cover;
+  cursor: pointer;
+}
