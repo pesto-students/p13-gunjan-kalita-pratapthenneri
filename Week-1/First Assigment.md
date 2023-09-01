@@ -6,6 +6,8 @@ A protocol stack is a set of protocols and software layers that work together to
 
 In the context of web development, a protocol stack is used to facilitate communication between clients (such as web browsers) and servers that host websites and web applications. The web development protocol stack consists of several layers, each responsible for specific tasks, and it follows a client-server architecture.
 
+![ProtocolStack](./img/LayerOfProtocols.svg)
+
 ## Simplified Overview of the Web Development Protocol Stack:
 
 1. **Application Layer:** This is the topmost layer in the stack and deals with high-level application-specific protocols. For web development, the primary application layer protocol is the Hypertext Transfer Protocol (HTTP). HTTP is used for requesting and transmitting web pages, files, and other resources from the server to the client (web browser).
@@ -22,37 +24,11 @@ The server may also use other protocols such as HTTPS (HTTP Secure) for encrypte
 
 Overall, the protocol stack in web development ensures that data is efficiently and reliably transmitted between clients and servers, enabling the functioning of websites and web applications over the internet.
 
-### Let's Discuss protocol stack in more simpler manner with a real time example:
-
-# Web Party Protocol Stack
-
-Imagine a protocol stack as a party-planning committee for an epic online bash!
-
-In the world of web development, a protocol stack is like throwing a web party that involves multiple layers of coordination and communication to make the event a smashing success. Let's break it down:
-
-**1. Application Layer (The Party Theme):**
-
-The application layer is like deciding on the theme of the party. It's all about the "what" - what kind of web party are we throwing? Is it a dance party (HTTP) or a secure party (HTTPS)? Just like you choose a specific theme for your party, web developers choose the appropriate application layer protocol based on the type of web application they are building.
-
-**2. Transport Layer (Guest Communication):**
-
-Now that we have our party theme, we need a way for guests to communicate with each other effectively. Enter the transport layer! It's like setting up a magical chat service that allows guests to talk to each other. One of the transport layer protocols is TCP (Talkative Communication Protocol), which ensures that all guests receive their messages correctly and in the right order. So, if someone spills a drink, the message about it reaches everyone so they can avoid slipping!
-
-**3. Network Layer (The Party Address System):**
-
-To make sure the guests arrive at the party location, we need an efficient address system. The network layer takes care of this by providing IP addresses. It's like the GPS of the web party world! When someone wants to join the web party, their browser uses the IP address to find the right location (web server) where the party is hosted.
-
-**4. Link Layer (Bouncer at the Door):**
-
-Finally, we have the link layer, acting as the bouncer at the party entrance. This layer manages the physical connection to the network (internet) and makes sure that only invited guests (data packets) are allowed into the party. Any uninvited guests (malicious packets) trying to crash the party are shown the exit door!
-
-So, there you have it - a hilarious web party where protocols are party planners, IP addresses act as GPS, and bouncers keep the unwanted guests out! Just like a successful web development project, a fantastic party needs a well-coordinated protocol stack to keep the fun going and ensure everyone has a blast on the World Wide Dance Floor!
-
 # 2. What are the different types of web servers, and how do they differ in terms of functionality and performance?
 
-# Types of Web Servers and Their Characteristics
-
 There are several types of web servers available, each designed to serve web content and handle requests in different ways. The choice of web server depends on factors like the website's requirements, programming language used, operating system, and expected traffic levels. Here are some of the most common types of web servers and their key characteristics in terms of functionality and performance:
+
+![Web Servers](./img/types-of-web-servers.png)
 
 **1. Apache HTTP Server (Apache):**
 
@@ -86,21 +62,13 @@ LiteSpeed is a commercial web server that aims to deliver high performance and s
 
 **Performance:** LiteSpeed claims to outperform Apache and Nginx in certain scenarios, especially when it comes to serving static content and handling high-traffic websites.
 
-**5. Caddy:**
-
-Caddy is an open-source web server designed to be user-friendly and self-configuring. It aims to simplify HTTPS setup with automatic SSL certificate management and provides a straightforward configuration language.
-
-**Functionality:** Caddy is easy to set up and configure, and its automatic HTTPS feature is a significant advantage for securing websites by default.
-
-**Performance:** Caddy performs well and is suitable for many use cases, but its performance may not be as high as specialized servers like Nginx in certain high-load scenarios.
-
 Ultimately, the choice of web server depends on specific needs and requirements. Factors like website traffic, content type, server resources, and the level of control needed will influence the decision. It's essential to conduct benchmark tests and consider the features offered by each web server to determine the best fit for your web development project.
 
 ## 3. What is web hosting, and what are the different types of hosting services available for websites?
 
-# Introduction to Web Hosting
-
 Web hosting is a service that allows individuals and organizations to make their websites accessible on the internet. When you create a website, all the files, images, and other content that make up your site need to be stored on a web server. Web hosting companies provide the infrastructure and technologies necessary to store and serve these website files so that visitors can access your site from anywhere in the world.
+
+![Web Hosting](./img/hosting.jpg)
 
 Different types of hosting services are available to cater to various website needs. Here are some of the common types of web hosting:
 
@@ -132,9 +100,9 @@ Each type of hosting service has its pros and cons, and the right choice depends
 
 ## 4. What is scaling, and why is it important for web applications? How does scaling differ for vertical and horizontal scaling?
 
-# Scaling Web Applications
-
 Scaling, in the context of web applications, refers to the ability to handle increasing amounts of traffic, data, or user demand in a way that maintains the performance and responsiveness of the application. It involves adding more resources, such as servers, storage, or processing power, to the system as the application's requirements grow. Scaling is essential for web applications because as they gain popularity and attract more users, they need to be able to handle the increased workload without becoming slow or unresponsive.
+
+![Scaling](./img/Scaling.avif)
 
 There are two main approaches to scaling web applications: vertical scaling and horizontal scaling.
 
@@ -171,6 +139,8 @@ Scaling in web applications is important because it ensures that the application
 ## 5. What is SEO (Search Engine Optimization), and how can web developers optimize their websites for better search engine rankings?
 
 SEO, or Search Engine Optimization, is the practice of improving a website's visibility and ranking in search engine results pages (SERPs) organically. The goal of SEO is to increase the website's traffic by attracting relevant and targeted visitors from search engines like Google, Bing, and others. When a website ranks higher in search results, it is more likely to be seen and visited by users searching for related topics, products, or services.
+
+![SEO](./img/SEO.png)
 
 Web developers play a crucial role in optimizing websites for better search engine rankings. Here are some key strategies and techniques they can implement:
 
@@ -223,38 +193,9 @@ Integrate social media sharing buttons and encourage social sharing of content t
 
 It's essential to note that SEO is an ongoing process, and search engine algorithms are continuously evolving. Web developers should keep themselves updated with the latest SEO best practices and algorithm changes to ensure their websites remain optimized and competitive in search engine rankings. Additionally, focusing on user experience and providing valuable content will not only improve search rankings but also lead to better engagement and higher conversion rates.
 
-## SEO : Let's discuss with realtime example
+## Resources Referred :
 
-## The Great SEO Curry Challenge!
-
-Welcome to the Great SEO Curry Challenge! Imagine that SEO (Search Engine Optimization) is like preparing the most delicious Indian curry to satisfy the taste buds of search engines and hungry internet users alike. Just as a good curry needs the perfect blend of spices, web developers can optimize their websites to rank higher in search engine results by adding a dash of SEO magic! Let's dive into this flavorful journey of SEO Curry and discover the secret recipe for better search engine rankings:
-
-**1. Quality Ingredients (High-Quality Content):**
-
-In the SEO Curry Challenge, the first step is to gather the finest ingredients - high-quality content. Just like a mouthwatering curry starts with fresh and flavorful ingredients, web developers should create valuable and engaging content for their websites. Add some juicy blog posts, informative articles, and relevant product descriptions to spice up the website.
-
-**2. Keywords - The Magic Masala:**
-
-Keywords are like the secret masala that adds flavor to our SEO Curry! Just as Indian spices enhance the taste of the curry, web developers need to sprinkle relevant keywords throughout the content. Carefully research and choose the right keywords that match what users are searching for. Be sure not to overstuff the curry with keywords, as search engines prefer a balanced and natural mix.
-
-**3. Spice Level - On-Page Optimization:**
-
-Now, let's adjust the spice level with on-page optimization! Just as Indians love different spice levels, search engines appreciate well-optimized web pages. Web developers should optimize the title tags, meta descriptions, and URL structures to make them attractive and relevant. This way, our SEO Curry gets more attention from both users and search engines.
-
-**4. Mobile-Friendliness - Serving on a Thali:**
-
-As we serve our curry on a traditional thali (plate), it's essential to serve our website in a mobile-friendly format. Like a thali that accommodates various dishes, a mobile-friendly website caters to different devices, making it easy for users to indulge in our delicious content.
-
-**5. Backlinks - The Secret Recipe Sharing:**
-
-No Indian kitchen is complete without sharing secret recipes! Backlinks are like sharing our delicious curry recipe with others. Web developers should build high-quality backlinks from reputable websites to showcase the tastiness of our content to search engines.
-
-**6. Site Speed - The Quick Tadka:**
-
-A quick tadka (tempering) is essential to elevate the flavors of our curry. Similarly, web developers need to ensure that their website loads quickly. No one likes a slow curry, and neither do search engines! A speedy website provides a delightful experience for users and boosts search engine rankings.
-
-**7. Social Media - The Chutney Twist:**
-
-Just as chutney adds a tangy twist to our curry, social media plays a vital role in SEO. Sharing our content on social platforms helps to spread the aroma of our SEO Curry far and wide, attracting more visitors to the website.
-
-So, web developers, let's don our chef hats and cook up the most appetizing SEO Curry to win the hearts of both search engines and internet users. A perfectly optimized website is like a flavorsome Indian curry that leaves everyone craving for more!
+1. https://btninfosolution.in/top-10-prominent-reasons-of-why-seo-is-important-for-a-business/
+2. https://www.milesweb.in/blog/hosting/web-server-types-web-servers/
+3. https://www.redswitches.com/blog/types-of-web-hosting/
+4. https://moz.com/beginners-guide-to-seo

@@ -1,0 +1,29 @@
+* {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+#board {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #98cbe3;
+  font-size: 90px;
+}
+.x {
+  color: red;
+}
+.o {
+  color: blue;
+}
+h1 {
+  font-size: 25px;
+  text-align: center;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Restaurant Reviews</title>
+    <style>
+      .star-rating label {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("./img/filledstar.png");
+        background-size: cover;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Restaurant Reviews</h1>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="addreview.html">Add Review</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="restaurant-details">
+      <h2>Main Street Cafe</h2>
+      <p>
+        Main Street Cafe serves variety of hot and cold coffees, which is
+        located in Bangalore, kalyan Nagar.
+      </p>
+      <img
+        src="./img/cafe1.jpg"
+        height="auto"
+        width="750px"
+        alt="mainstreetcafe"
+      />
+      <div></div>
+      <div class="star-rating" id="mainstreet-rating">
+        <input type="radio" name="rating-mainstreet" id="rating-mainstreet-5" />
+        <label for="rating-mainstreet-5"></label>
+        <input type="radio" name="rating-mainstreet" id="rating-mainstreet-4" />
+        <label for="rating-mainstreet-4"></label>
+        <input type="radio" name="rating-mainstreet" id="rating-mainstreet-3" />
+        <label for="rating-mainstreet-3"></label>
+        <input type="radio" name="rating-mainstreet" id="rating-mainstreet-2" />
+        <label for="rating-mainstreet-2"></label>
+        <input type="radio" name="rating-mainstreet" id="rating-mainstreet-1" />
+        <label for="rating-mainstreet-1"></label>
+      </div>
+    </section>
+
+    <section class="restaurant-overview">
+      <h2>Overview</h2>
+      <p>Cuisine:Chineese, Bangalore</p>
+      <p>Price:₹₹₹</p>
+      <p>Chineese food at its best in a charming setting.</p>
+    </section>
+    <section class="restaurant-reviews">
+      <h2>Reviews</h2>
+      <div class="star-rating" id="mainstreet-rating">
+        <input type="radio" name="rating-mainstreet" id="rating-mainstreet-5" />
+        <label for="rating-mainstreet-5"></label>
+        <input
+          type="radio"
+          name="rating-mainstreet"
+          id="rating-mainstreet-4"
+          checked
+        />
+        <label for="rating-mainstreet-4"></label>
+        <input
+          type="radio"
+          name="rating-mainstreet"
+          id="rating-mainstreet-3"
+          checked
+        />
+        <label for="rating-mainstreet-3"></label>
+        <input
+          type="radio"
+          name="rating-mainstreet"
+          id="rating-mainstreet-2"
+          checked
+        />
+        <label for="rating-mainstreet-2"></label>
+        <input
+          type="radio"
+          name="rating-mainstreet"
+          id="rating-mainstreet-1"
+          checked
+        />
+        <label for="rating-mainstreet-1"></label>
+      </div>
+      <p>
+        Pratap: It was very delicious, we celebrated the get together and loved
+        it.
+      </p>
+      <div class="star-rating" id="mainstreet-rating">
+        <input type="radio" name="rating-mainstreet" id="rating-mainstreet-5" />
+        <label for="rating-mainstreet-5"></label>
+        <input
+          type="radio"
+          name="rating-mainstreet"
+          id="rating-mainstreet-4"
+          checked
+        />
+        <label for="rating-mainstreet-4"></label>
+        <input
+          type="radio"
+          name="rating-mainstreet"
+          id="rating-mainstreet-3"
+          checked
+        />
+        <label for="rating-mainstreet-3"></label>
+        <input
+          type="radio"
+          name="rating-mainstreet"
+          id="rating-mainstreet-2"
+          checked
+        />
+        <label for="rating-mainstreet-2"></label>
+        <input
+          type="radio"
+          name="rating-mainstreet"
+          id="rating-mainstreet-1"
+          checked
+        />
+        <label for="rating-mainstreet-1"></label>
+      </div>
+      <p>Nani: Happy to visit.</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Restaurant Reviews</p>
+    </footer>
+  </body>
+</html>

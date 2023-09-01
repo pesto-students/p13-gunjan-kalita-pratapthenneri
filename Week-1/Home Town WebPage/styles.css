@@ -1,0 +1,47 @@
+.locationsection {
+  margin: 15px;
+}
+.location,
+.climate,
+.ancient {
+  text-align: justify;
+}
+hr {
+  border-top: 5px solid darkgray;
+  width: 20%;
+  float: left;
+  margin: -20px;
+}
+
+.songmeaning {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+h1 {
+  text-shadow: 4px 4px 4px darkgray;
+}
+h2 {
+  text-shadow: 4px 4px 4px darkgray;
+}
+p,
+ul {
+  font-size: large;
+  font-family: sans-serif, serif;
+}
+.song {
+  font-style: italic;
+  text-align: center;
+}
+.section {
+  margin: 70px;
+  margin-top: 0px;
+}
+u {
+  text-decoration-color: darkgray;
+  text-decoration-thickness: 7px;
+  border-radius: 20px;
+}
+img {
+  border-radius: 20px;
+}
